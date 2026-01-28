@@ -1,5 +1,11 @@
-# Master Thesis Emanuele Salonico
-emanuele.salonico@tum.de
+# Master's Thesis Emanuele Salonico
+
+Master's Thesis in Information Systems
+
+School of Computation, Information and Technology
+Technical University of Munich
+
+<emanuele.salonico@tum.de> | 28.01.2026
 
 ## Title
 
@@ -17,25 +23,26 @@ This master thesis explores how **natural language processing (NLP)**, **machine
 
 Three approaches are compared:
 
-1. **Embedding-based classification with traditional ML models**
-Text embeddings (e.g., from transformer models) are used as feature representations, which are then fed into classical machine learning classifiers such as Support Vector Machines, XGBOOST and Logistic Regression.
+1. **Embedding-based classification with traditional ML models**  
+   Text embeddings (e.g., from transformer models) are used as feature representations, which are then fed into classical machine learning classifiers such as Support Vector Machines, XGBOOST and Logistic Regression.
 
-2. **Direct LLM classification with prompt engineering**
-Large language models are used directly for include/exclude decisions via zero-shot and few-shot prompting strategies, also enhanced with semantic retreival to provide relevant context.
+2. **Direct LLM classification with prompt engineering**  
+   Large language models are used directly for include/exclude decisions via zero-shot and few-shot prompting strategies, also enhanced with semantic retrieval to provide relevant context.
 
-3. **Hybrid approach: LLM-based feature extraction with ML classification**
-An LLM is used to extract structured binary features from titles and abstracts (via a data labeling pipeline), which are then used as input for a Random Forest classifier.
+3. **Hybrid approach: LLM-based feature extraction with ML classification**  
+   An LLM is used to extract structured binary features from titles and abstracts (via a data labeling pipeline), which are then used as input for a Random Forest classifier.
 
-A labeled dataset from a medical domain is used as the basis for evaluation, focusing on **accuracy**, **efficiency**, and **practical applicability**. The results of this benchmark provide insights into the strengths and limitations of different methods and highlight how combining automation with human expertise can make systematic reviews faster, more reliable, and less resource-intensive.
-
-The most important metrics for this study are **recall** and **specificity**.
+A labeled dataset from a medical domain is used as the basis for evaluation, focusing on **recall**, **specificity**, and **workload reduction**.
+The results of this benchmark provide insights into the strengths and limitations of different methods and highlight how combining automation with human expertise can make systematic reviews faster, more reliable, and less resource-intensive.
 
 ## Research Questions
 
-- **RQ1:** What is the current state of the art in existing literature for using ML and NLP techniques in TIAB screening?
-- **RQ2:** Can embedding-based representations combined with traditional ML classifiers achieve reliable include/exclude decisions in systematic reviews?
-- **RQ3:**  How do LLM-based classification approaches (zero-shot, few-shot, and semantic retrieval-enhanced) perform in terms of recall and specificity compared to traditional methods?
-- **RQ4:**  Does a hybrid approach (using LLM-extracted features with a random forest classifier) offer a favorable trade-off between performance and computational cost?
+| ID | Question |
+|----|----------|
+| RQ1 | What is the current state of the art in existing literature for using ML and NLP techniques in TIAB screening? |
+| RQ2 | Can embedding-based representations combined with traditional ML classifiers achieve reliable include/exclude decisions in systematic reviews? |
+| RQ3 | How do LLM-based classification approaches (zero-shot, few-shot, and semantic retrieval-enhanced) perform in terms of recall and specificity compared to traditional methods? |
+| RQ4 | Does a hybrid approach (using LLM-extracted features with a random forest classifier) offer a favorable trade-off between performance and computational cost? |
 
 ## Getting Started
 
