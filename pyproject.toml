@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "master-thesis-final"
+version = "0.1.0"
+description = "Master Thesis | Emanuele Salonico"
+authors = [{name = "Emanuele Salonico", email = "emanuele.salonico@tum.de"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas",
+    "numpy", 
+    "scikit-learn",
+    "sentence-transformers",
+    "matplotlib",
+    "tqdm",
+    "xgboost",
+    "jupyter",
+    "beautifulsoup4",
+    "transformers",
+    "adapters",
+    "openai",
+    "google-generativeai",
+    "python-dotenv",
+    "seaborn",
+    "chromadb",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"

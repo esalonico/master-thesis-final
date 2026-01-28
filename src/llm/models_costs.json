@@ -1,0 +1,22 @@
+{
+  "gpt-5-mini": {
+    "COST_PER_1M_TOKENS_INPUT": 0.25,
+    "COST_PER_1M_TOKENS_OUTPUT": 2
+  },
+  "gpt-5-nano": {
+    "COST_PER_1M_TOKENS_INPUT": 0.05,
+    "COST_PER_1M_TOKENS_OUTPUT": 0.4
+  },
+  "gemini-2.5-flash": {
+    "COST_PER_1M_TOKENS_INPUT": 0.3,
+    "COST_PER_1M_TOKENS_OUTPUT": 2.5
+  },
+  "gemini-2.5-pro": {
+    "COST_PER_1M_TOKENS_INPUT": 1.25,
+    "COST_PER_1M_TOKENS_OUTPUT": 10
+  },
+  "google/medgemma-27b-text-it": {
+    "COST_PER_1M_TOKENS_INPUT": 0.0,
+    "COST_PER_1M_TOKENS_OUTPUT": 0.0
+  }
+}
